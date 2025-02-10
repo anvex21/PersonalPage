@@ -133,6 +133,7 @@ hr {
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
+  transition: transform 0.2s ease-in-out;
   text-decoration: none;
 }
 
@@ -144,12 +145,14 @@ hr {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+  transform: scale(1.1);
 }
 
 .a-btn {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* transition: transform 0.2s ease-in-out; */
 }
 
 footer {
@@ -164,3 +167,7 @@ a {
   margin: 10px 20px;
   text-decoration: none;
 }
+
+
+
+
